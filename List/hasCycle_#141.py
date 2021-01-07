@@ -17,5 +17,4 @@ def hasCycle(self, head: ListNode) -> bool:
             # == 判断两个变量是否相等
             if slow is fast:
                 return True
-
         return False 
