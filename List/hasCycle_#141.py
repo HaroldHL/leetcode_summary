@@ -1,3 +1,9 @@
+#Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
 def hasCycle(self, head: ListNode) -> bool:
         if not head or not head.next:
             return False
@@ -12,4 +18,4 @@ def hasCycle(self, head: ListNode) -> bool:
             if slow is fast:
                 return True
 
-        return False   
+        return False 
